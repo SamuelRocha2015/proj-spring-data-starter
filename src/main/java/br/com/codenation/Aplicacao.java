@@ -22,14 +22,6 @@ public class Aplicacao {
         repositorio.save(new Produto("Computador", 10, 2500.00));
         System.out.println("-------------------------------");
 
-        System.out.println("-------------------------------");
-
-        System.out.println("Produtos cadastrados:");
-        for (Produto produto : repositorio.findAll()) {
-            System.out.println(produto.toString());
-        }
-        System.out.println("-------------------------------");
-
         return "";
     }
 
